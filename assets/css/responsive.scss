@@ -204,7 +204,7 @@
   }
 
   .banner-area {
-    .owl-theme .owl-nav.disabled + .owl-dots {
+    .owl-theme .owl-nav.disabled+.owl-dots {
       max-width: 100%;
       text-align: center;
     }
@@ -996,7 +996,7 @@
   }
 
   .banner-area {
-    .owl-theme .owl-nav.disabled + .owl-dots {
+    .owl-theme .owl-nav.disabled+.owl-dots {
       max-width: 100%;
       text-align: center;
     }
@@ -1550,7 +1550,7 @@
   }
 
   .banner-area {
-    .owl-theme .owl-nav.disabled + .owl-dots {
+    .owl-theme .owl-nav.disabled+.owl-dots {
       max-width: 940px;
     }
   }
@@ -1768,7 +1768,7 @@
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1299px) {
-  .banner-area .owl-theme .owl-nav.disabled + .owl-dots {
+  .banner-area .owl-theme .owl-nav.disabled+.owl-dots {
     max-width: 1130px;
   }
 
@@ -1938,8 +1938,21 @@
     position: relative;
     justify-content: center;
   }
-  ul.ruby-menu>li.ruby-menu-mega-shop>div>ul>li>a{
-    padding: 20px 6px;
+
+  ul.ruby-menu>li.ruby-menu-mega-shop>div>ul>li>a {
+    padding: 20px 6px !important;
+  }
+
+  .banner-item {
+    background-position: right;
+  }
+
+  .logo-area:before {
+    width: 33% !important;
+  }
+
+  .footer-area .footer-item .footer-link ul li {
+    display: flex;
   }
 }
 
@@ -1972,6 +1985,18 @@
   .mobile-dnone {
     display: none;
   }
+
+  h3.boomQuote {
+    font-size: 25px !important;
+  }
+
+  .logo-area:before {
+    width: 30% !important;
+  }
+
+  .boomR {
+    width: 190px !important;
+  }
 }
 
 // small laptops
@@ -1981,11 +2006,12 @@
     width: 38%;
   }
 }
+
 @media screen and (max-width: 1990px) {
   .ctaform {
     position: relative;
     left: 24px;
-}
+  }
 }
 
 // TAblets
@@ -1993,6 +2019,7 @@
   .ctaform {
     left: 18px;
   }
+
   .mobile-reverse {
     flex-direction: column-reverse;
   }
@@ -2004,24 +2031,30 @@
   .ctaform {
     left: 0px;
   }
+
   .logo-area {
     text-align: center;
     padding: 12px;
     margin: 16px;
   }
+
   .logo-area .logo-text h3 {
     color: black;
   }
+
   .ctaform .form-control {
     height: 42px;
     padding: 12px;
   }
+
   .counter-item h3 {
     font-size: 29px;
   }
+
   .counter-item p {
     font-size: 15px;
   }
+
   .counter-area .row {
     padding: 25px 0;
   }

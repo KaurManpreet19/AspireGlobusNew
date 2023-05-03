@@ -1277,7 +1277,16 @@
     justify-content: center;
   }
   ul.ruby-menu > li.ruby-menu-mega-shop > div > ul > li > a {
-    padding: 20px 6px;
+    padding: 20px 6px !important;
+  }
+  .banner-item {
+    background-position: right;
+  }
+  .logo-area:before {
+    width: 33% !important;
+  }
+  .footer-area .footer-item .footer-link ul li {
+    display: flex;
   }
 }
 @media only screen and (max-width: 1024px) {
@@ -1302,6 +1311,15 @@
   }
   .mobile-dnone {
     display: none;
+  }
+  h3.boomQuote {
+    font-size: 25px !important;
+  }
+  .logo-area:before {
+    width: 30% !important;
+  }
+  .boomR {
+    width: 190px !important;
   }
 }
 @media screen and (max-width: 1390px) {
