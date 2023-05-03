@@ -1419,6 +1419,25 @@
     height: -moz-fit-content;
     height: fit-content;
   }
+  .card.boomAddressCard {
+    width: 100%;
+  }
+  ul.footer-links li {
+    margin-right: 5px;
+    display: block;
+  }
+  ul.footer-links {
+    float: unset;
+  }
+  ul.footer-links li a {
+    border-right: none;
+    padding-right: 0;
+  }
+  .footer-area .copyright-area p {
+    margin-bottom: 15px;
+    color: #fff;
+    text-align: center;
+  }
 }
 @media screen and (max-width: 1390px) {
   .logo-area:before {
