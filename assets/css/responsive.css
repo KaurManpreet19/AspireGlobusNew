@@ -1415,6 +1415,10 @@
     height: 400px;
     padding-top: 60px;
   }
+  .testimonials-area .testimonials-item {
+    height: -moz-fit-content;
+    height: fit-content;
+  }
 }
 @media screen and (max-width: 1390px) {
   .logo-area:before {
