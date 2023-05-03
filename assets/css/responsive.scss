@@ -873,6 +873,10 @@
     font-size: $all-size;
   }
 
+  .card.boomAddressCard {
+    width: 100% !important;
+  }
+
   .mtb-100 {
     margin-top: 70px;
     margin-bottom: 70px;
@@ -1997,14 +2001,125 @@
   .boomR {
     width: 190px !important;
   }
+
+  .about-area .about-content {
+    max-width: 100%;
+  }
+
+  .about-area .about-img img {
+    width: 100%;
+    margin-bottom: 0;
+    height: 300px;
+    object-fit: cover;
+  }
+
+  .counter-item {
+    padding: 15px 15px;
+  }
+
+  .counter-item p {
+    font-size: 14px;
+  }
+
+  .testimonials-area .testimonials-item {
+    height: 320px;
+  }
+
+  .ptb-100 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .pt-100 {
+    padding-top: 50px;
+  }
+
+  .pb-100 {
+    padding-bottom: 50px;
+  }
+
+  .blog-item a img {
+    width: 100%;
+    margin-bottom: 15px;
+    height: 300px;
+    object-fit: cover;
+  }
+
+  .blog-side-item ul li a img {
+    width: 100%;
+    height: 90px;
+    object-fit: cover;
+  }
+
+  .blog-area .visit-blog {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .logo-area {
+    padding-top: 50px;
+  }
+
+  .ctaform .btnColor {
+    border-radius: 9px;
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+
+  .ctaform {
+    left: 0 !important;
+  }
+
+  .about-area .about-content {
+    margin-top: 30px;
+  }
+
+  .single_counter_inner {
+    display: none;
+  }
+
+  .card.boomAddressCard {
+    height: 190px;
+  }
+
+  ul.footer-links li {
+    margin-right: 5px;
+  }
+
+  footer.footer-area a {
+    font-size: 14px;
+  }
+
+  .card.boomAddressCard {
+    width: 50%;
+  }
+
+  .banner-item {
+    height: 550px;
+  }
+
+  .ctaform {
+    display: flex;
+    align-items: baseline;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .banner-item {
+    height: 400px;
+    padding-top: 60px;
+  }
 }
 
 // small laptops
-
 @media screen and (max-width: 1390px) {
   .logo-area:before {
     width: 38%;
   }
+
+
 }
 
 @media screen and (max-width: 1990px) {
